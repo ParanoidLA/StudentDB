@@ -1,0 +1,3 @@
+[submodule "student"]
+	path = student
+	url = https://github.com/jay4m/student
