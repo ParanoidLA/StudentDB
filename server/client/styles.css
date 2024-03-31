@@ -1,0 +1,86 @@
+/* Modern and colorful styles for the form */
+
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Form container */
+  form {
+    width: 50%;
+    margin: auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Headline styles */
+  h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Label styles */
+  label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  /* Input field styles */
+  input[type="text"],
+  input[type="number"],
+  input[type="date"],
+  input[type="url"],
+  select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+  }
+  
+  input[type="text"]:focus,
+  input[type="number"]:focus,
+  input[type="date"]:focus,
+  input[type="url"]:focus,
+  select:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 14px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:active {
+    transform: translateY(1px);
+  }
+  
+  /* Responsive design */
+  @media screen and (max-width: 600px) {
+    form {
+      width: 90%;
+    }
+  }
+  
